@@ -1,0 +1,65 @@
+#taskList {
+    color: rgb(231, 231, 231);
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+#taskList li {
+    color: rgb(255, 255, 255);
+    background-color: rgb(157, 54, 204);
+    font-size: 30px;
+    border-radius: 30px;
+    margin: 5px 0;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+body {
+    background-color: rgb(184, 184, 184);
+    background: linear-gradient(90deg, rgb(142, 238, 245) 0%, rgba(0,0,0,1) 150%);
+}
+#clearTasksBtn {
+    margin-left: 20px;
+}
+#taskInput {
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(36, 215, 247);
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+}
+.row{
+    margin-top: 10%;
+
+}
+.carpiButonu {
+    float: right;
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(157, 54, 204);
+    border: 1px solid rgb(0, 0, 0);
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 5px;
+    
+}
+.carpiButonu:hover {
+    background-color: rgb(252, 3, 3);
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
